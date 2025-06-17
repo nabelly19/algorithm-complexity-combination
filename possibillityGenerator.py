@@ -1,13 +1,9 @@
 from math import factorial
 from itertools import combinations
 
-
 # def combinacao(n, k):
 #     return factorial(n) // (factorial(k) * factorial(n - k)) 
 # print(f'Número de combinações possíveis: {combinacao(25, 15), combinacao(25, 14), combinacao(25, 13), combinacao(25, 12), combinacao(25, 11)}')
-
-
-
 
 numeros = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]
 with open("Combinacoes-15.txt", "w") as file:

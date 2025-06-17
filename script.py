@@ -100,7 +100,7 @@ def algoritmo_guloso_parcial(mapa_cobertura, contagem_sub14, sub14_bitmaps, cobe
     return solucao, cobertos
 
 # === MAIN ===
-if _name_ == "_main_":
+if __name__ == "__main__":
     inicio_total = time.time()
 
     print("Carregando combinações...")
